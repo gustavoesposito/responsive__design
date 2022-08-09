@@ -49,6 +49,14 @@ videos.map( video => {
     cardClone.setAttribute("id" , video.video_id);
     cardClone.querySelector("img").src = video.thumb;
     cardClone.querySelector(".title").innerHTML = video.title;
-    
-    cardClone
-})
+
+    cardClone.querySelector(".info > p.text--medium").innerHTML = video.duration
+    sectionCards.appendChild(cardClone);
+});
+
+card.remove();
+
+// Modal Actions
+
+ const modalOverlay = document.querySelector(".modal-overlay");
+ const modal = document.querySelector
