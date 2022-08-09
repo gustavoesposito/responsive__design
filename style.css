@@ -98,3 +98,28 @@ section.hero p{
 main{
     margin-bottom: 80px;
 }
+.cards{
+    width: 980px;
+    margin:auto;
+
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    grid-gap: 20px;
+}
+
+
+.text--medium{
+    font-size: 16px;
+    line-height:26px;
+    font-weight: 400;
+
+    color: #ecf0f1;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #7159c1;
+    cursor: pointer
+    ;
+    transition: all 0.3s ease 0s;
+}
