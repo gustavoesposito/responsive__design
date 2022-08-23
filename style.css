@@ -71,7 +71,7 @@
     font-size: 16px;
     font-weight: 600;
     color: rgb(255, 255, 255);
-    background-color: rgb(113, 89, 193);
+    background-color: orangered ;
     margin: 15px 0px 0px;
     padding: 12px 30px;
     text-decoration: none;
@@ -99,7 +99,7 @@
   }
   
   section.hero p {
-    color: rgb(154, 142, 191);
+    color:  rgb(191, 159, 142);
     font-size: 18px;
     line-height: 32px;
     margin: 10px 0px 0px;
@@ -135,7 +135,7 @@
   .card {
     display: flex;
     flex-direction: column;
-    background-color: #7159c1;
+    background-color: rgba(255, 68, 0, 0.421);
     cursor: pointer;
     transition: all 0.3s ease 0s;
   
@@ -289,7 +289,7 @@
   #form {
     width:100%;
   
-    background: #7159c1;
+    background:  rgba(255, 68, 0, 0.399);
     padding: 80px 0;
     margin:0;
   
